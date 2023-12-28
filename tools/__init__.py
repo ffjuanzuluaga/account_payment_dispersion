@@ -4,13 +4,13 @@ import logging
 _logger = logging.getLogger(__name__)
 
 
-def _column_name_field(self, names, ws):
-    letters = self.get_excel_column_letters(len(names))
+def _column_name_field(names, ws):
+    letters = get_excel_column_letters(len(names))
     for index, name in enumerate(names, start=0):
         ws[f'{letters[index]}1'] = name
     return ws
 
-def get_excel_column_letters(self, num_columns) -> list:
+def get_excel_column_letters(num_columns) -> list:
     letters = []
     for i in range(num_columns):
         # Convertir el índice a letras de columna (0-indexed)
