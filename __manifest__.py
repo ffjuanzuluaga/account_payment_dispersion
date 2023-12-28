@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
-    'name': 'Bancolombia Payment Dispersal',
+    'name': 'Account Payment Dispersal',
     'version': '0.1',
     'category': 'Localization/Accounting & Finance',
-    'description': 'This module allows you to get the information to make the payment dispersion with Bancolombia.',
+    'description': 'This module allows to visualise the different dispersions that have been carried out over time..',
     'author': 'Firefly-e',
     'maintainer': 'Firefly-e',
     'website': 'https://firefly-e.com/',
