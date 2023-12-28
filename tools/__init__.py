@@ -4,7 +4,7 @@ import logging
 _logger = logging.getLogger(__name__)
 
 
-def _column_name_field(self, names, ws) -> Workbook:
+def _column_name_field(self, names, ws):
     letters = self.get_excel_column_letters(len(names))
     for index, name in enumerate(names, start=0):
         ws[f'{letters[index]}1'] = name
