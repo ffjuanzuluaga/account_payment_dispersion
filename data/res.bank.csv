@@ -1,4 +1,4 @@
-name,bic,code,country_id:id
+name,bic,code,country:id
 BANCO DE BOGOTA,1001,BBOGCOBBBO1,base.co
 BANCO POPULAR,1002,BPOPCOBBBAQ,base.co
 ITAU antes Corpbanca,1006,BCTOCOBBMD1,base.co
