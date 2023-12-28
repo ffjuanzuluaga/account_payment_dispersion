@@ -343,3 +343,29 @@ msgstr ""
 #: model:ir.model.fields,help:account_payment_dispersion.field_account_payment_dispersal__website_message_ids
 msgid "Website communication history"
 msgstr ""
+
+#. module: account_payment_dispersion
+#. odoo-python
+#: code:addons/account_payment_dispersion/models/res_partner_bank.py:0
+#, python-format
+msgid "Current account"
+msgstr "Cuenta corriente"
+
+#. module: account_payment_dispersion
+#. odoo-python
+#: code:addons/account_payment_dispersion/models/res_partner_bank.py:0
+#, python-format
+msgid "Savings account"
+msgstr "Cuenta de ahorros"
+
+#. module: account_payment_dispersion
+#. odoo-python
+#: code:addons/account_payment_dispersion/models/res_partner_bank.py:0
+#, python-format
+msgid "Payroll account"
+msgstr "Cuenta de nómina"
+
+#. module: account_payment_dispersion
+#: model:ir.model.fields,field_description:res_partner_bank.field_res_partner_bank__type_of_account
+msgid "Type of account"
+msgstr "Tipo de cuenta"
