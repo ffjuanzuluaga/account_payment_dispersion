@@ -13,6 +13,7 @@ class ResPartnerBank(models.Model):
     @staticmethod
     def _get_type_of_account():
         return [
+            ('no_account', _('No account')),
             ('current_account', _('Current account')),
             ('savings_account', _('Savings account')),
             ('payroll_account', _('Payroll account'))

@@ -349,14 +349,14 @@ msgstr ""
 #: code:addons/account_payment_dispersion/models/res_partner_bank.py:0
 #, python-format
 msgid "Current account"
-msgstr "Cuenta corriente"
+msgstr "Cuenta Corriente"
 
 #. module: account_payment_dispersion
 #. odoo-python
 #: code:addons/account_payment_dispersion/models/res_partner_bank.py:0
 #, python-format
 msgid "Savings account"
-msgstr "Cuenta de ahorros"
+msgstr "Cuenta Ahorros"
 
 #. module: account_payment_dispersion
 #. odoo-python
@@ -366,6 +366,45 @@ msgid "Payroll account"
 msgstr "Cuenta de nómina"
 
 #. module: account_payment_dispersion
+#. odoo-python
+#: code:addons/account_payment_dispersion/models/res_partner_bank.py:0
+#, python-format
+msgid "No account"
+msgstr "Sin Cuenta"
+
+#. module: account_payment_dispersion
 #: model:ir.model.fields,field_description:res_partner_bank.field_res_partner_bank__type_of_account
 msgid "Type of account"
 msgstr "Tipo de cuenta"
+
+#. module: account_payment_dispersion
+#. odoo-python
+#: code:addons/account_payment_dispersion/models/account_payment_dispersal_field.py:0
+#, python-format
+msgid "There is already a register under this name {rec.name}. Please check with your administrator"
+msgstr "Ya existe un registro con este nombre {rec.name}. Por favor, consulte con su administrador"
+
+#. module: account_payment_dispersion
+#: model:ir.model.fields,field_description:account_payment_dispersion.field_account_payment_dispersion_field__name
+msgid "Field name excel"
+msgstr "Nombre del campo excel"
+
+#. module: account_payment_dispersion
+#: model:ir.model.fields,field_description:account_payment_dispersion.field_account_payment_dispersion_field__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: account_payment_dispersion
+#: model:ir.model.fields,field_description:account_payment_dispersion.field_account_payment_dispersion_field__value
+msgid "Field value"
+msgstr "Valor campo"
+
+#. module: account_payment_dispersion
+#: model:ir.model.fields,field_description:account_payment_dispersion.field_account_payment_dispersion_field__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: account_payment_dispersion
+#: model:ir.model.fields,field_description:account_payment_dispersion.field_account_payment_dispersion_field__company_id
+msgid "Company"
+msgstr "Compañía"
