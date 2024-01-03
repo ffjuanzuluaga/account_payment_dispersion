@@ -12,7 +12,7 @@ class AccountPaymentDispersalField(models.Model):
 
     _name = 'account.payment_dispersal_field'
     _description = 'configuration of the fields to export the information for the dispersion files'
-    _order = "sequence,id"
+    _order = "sequence asc"
     _inherit = ['mail.thread', 'mail.activity.mixin']
 
     @api.constrains('name')
