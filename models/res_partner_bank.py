@@ -13,10 +13,10 @@ class ResPartnerBank(models.Model):
     @staticmethod
     def _get_type_of_account():
         return [
-            ('no_account', _('No account')),
-            ('current_account', _('Current account')),
-            ('savings_account', _('Savings account')),
-            ('payroll_account', _('Payroll account'))
+            ('no_account', _('No Account')),
+            ('current_account', _('Current Account')),
+            ('savings_account', _('Savings Account')),
+            ('payroll_account', _('Payroll Account'))
         ]
 
     type_of_account = fields.Selection(selection = "_get_type_of_account", string='Type of account')
