@@ -8,6 +8,9 @@
             <field name="arch" type="xml">
                 <xpath expr="//sheet" position="inside">
                     <notebook attrs="{'invisible': [('payment_type', '!=', 'outbound'), ('type', '!=', 'bank')]}" name="dispersion_banks">
+                        <group>
+                            <field name="type" invisible='1'/>
+                        </group>
                     </notebook>
                 </xpath>
             </field>
