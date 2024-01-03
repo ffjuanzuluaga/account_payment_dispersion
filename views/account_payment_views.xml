@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+         <record id="account_payment_dispersion_inherit_view_account_payment_form" model="ir.ui.view">
+            <field name="name">account.payment.dispersion.inherit.view.account.payment.form</field>
+            <field name="model">account.payment</field>
+            <field name="inherit_id" ref="account.view_account_payment_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <notebook attrs="{'invisible': [('payment_type', '!=', 'outbound'), ('type', '!=', 'bank')]}" name="dispersion_banks">
+                    </notebook>
+                </xpath>
+            </field>
+        </record>
+	</data>
+</odoo>
