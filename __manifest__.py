@@ -9,6 +9,7 @@
     'maintainer': 'Firefly-e',
     'website': 'https://firefly-e.com/',
     'depends': [
+        'account',
         'l10n_co'
     ],
     'data': [
