@@ -14,7 +14,7 @@
     ],
     'data': [
         'security/ir.model.access.csv',
-        'data/res.bank.csv',
+        'data/res_bank_data.xml',
 
         'views/account_payment_views.xml',
         'views/res_bank_views.xml',
