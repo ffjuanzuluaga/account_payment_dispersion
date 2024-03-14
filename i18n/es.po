@@ -76,6 +76,7 @@ msgstr "Cuentas bancarias"
 #. module: account_payment_dispersion
 #: model:ir.actions.act_window,name:account_payment_dispersion.account_payment_dispersal_action
 #: model:ir.ui.menu,name:account_payment_dispersion.account_payment_dispersed_submenu
+#: model:ir.ui.menu,name:account_payment_dispersion.account_payment_dispersed_submenu_finance_payables
 #: model_terms:ir.ui.view,arch_db:account_payment_dispersion.account_payment_dispersal_view_tree
 msgid "Bank Dispersals"
 msgstr "Dispersiones bancarias"
