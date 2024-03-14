@@ -18,3 +18,4 @@ class AccountPayment(models.Model):
     _inherit = 'account.payment'
 
     type = fields.Selection(related="journal_id.type", string="Type")
+    type_of_account = fields.Selection(related = "partner_bank_id.type_of_account", string='Type of account')

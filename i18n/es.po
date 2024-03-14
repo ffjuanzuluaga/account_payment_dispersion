@@ -391,6 +391,7 @@ msgstr "Tipo"
 #. module: account_payment_dispersion
 #: model:ir.model.fields,field_description:account_payment_dispersion.field_account_setup_bank_manual_config__type_of_account
 #: model:ir.model.fields,field_description:account_payment_dispersion.field_res_partner_bank__type_of_account
+#: model:ir.model.fields,field_description:account_payment_dispersion.field_account_payment__type_of_account
 msgid "Type of account"
 msgstr "Tipo de cuenta"
 
