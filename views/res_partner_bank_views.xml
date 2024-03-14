@@ -9,6 +9,11 @@
                 <field name="acc_number" position="after">
                     <field name="type_of_account"/>
                 </field>
+
+                <xpath expr="//sheet" position="inside">
+                    <notebook name="dispersion_banks"/>
+                </xpath>
+                
             </field>
         </record>
 	</data>

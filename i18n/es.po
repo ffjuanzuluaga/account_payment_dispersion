@@ -433,7 +433,7 @@ msgstr "Sin Cuenta"
 #. odoo-python
 #: code:addons/account_payment_dispersion/models/res_partner_bank.py:0
 #, python-format
-msgid "Current Account"
+msgid "Checking Account"
 msgstr "Cuenta corriente"
 
 #. module: account_payment_dispersion
@@ -449,3 +449,27 @@ msgstr "Cuenta de ahorro"
 #, python-format
 msgid "Payroll Account"
 msgstr "Cuenta nómina"
+
+#. module: account_payment_dispersion
+#. odoo-python
+#: code:addons/account_payment_dispersion/models/account_journal.py:0
+#, python-format
+msgid "Checking"
+msgstr "Corriente"
+
+#. module: account_payment_dispersion
+#. odoo-python
+#: code:addons/account_payment_dispersion/models/account_journal.py:0
+#, python-format
+msgid "Savings"
+msgstr "Ahorros"
+
+#. module: account_payment_dispersion
+#: model:ir.model.fields,help:account_payment_dispersion.field_account_journal_account_number
+msgid "Account Number"
+msgstr "Número de cuenta"
+
+#. module: account_payment_dispersion
+#: model:ir.model.fields,help:account_payment_dispersion.field_account_journal_account_type
+msgid "Account Type"
+msgstr "Tipo de cuenta"

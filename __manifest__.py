@@ -21,6 +21,7 @@
         'views/account_payment_dispersal_views.xml',
         'views/res_partner_bank_views.xml',
         'views/res_partner_views.xml',
+        'views/account_journal_views.xml',
         'views/menus.xml'
     ],
     'license': 'LGPL-3',

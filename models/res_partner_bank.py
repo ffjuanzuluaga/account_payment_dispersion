@@ -14,7 +14,7 @@ class ResPartnerBank(models.Model):
     def _get_type_of_account():
         return [
             ('no_account', _('No Account')),
-            ('current_account', _('Current Account')),
+            ('current_account', _('Checking Account')),
             ('savings_account', _('Savings Account')),
             ('payroll_account', _('Payroll Account'))
         ]
