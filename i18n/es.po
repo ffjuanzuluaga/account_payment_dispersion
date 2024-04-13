@@ -474,3 +474,12 @@ msgstr "Número de cuenta"
 #: model:ir.model.fields,help:account_payment_dispersion.field_account_journal_account_type
 msgid "Account Type"
 msgstr "Tipo de cuenta"
+
+#. module: account_payment_dispersion
+#. odoo-python
+#: code:addons/account_payment_dispersion/models/account_payment_dispersal_field.py:0
+#, python-format
+msgid ""
+"There is already a register under this name %s. Please check with your administrator"
+msgstr ""
+"Ya existe un registro con este nombre %s. Por favor, consulte con su administrador"

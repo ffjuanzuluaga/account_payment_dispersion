@@ -20,7 +20,7 @@ class AccountPaymentDispersalField(models.Model):
         for rec in self:
             if self.search_count([('name', '=ilike', rec.name)]) > 1:
                 raise ValidationError(
-                    _(f"There is already a register under this name {rec.name}. Please check with your administrator"))
+                    _("There is already a register under this name %s. Please check with your administrator", rec.name))
 
     name = fields.Char(string='Field name excel',
                        required=True, tracking=True, translate=True)
