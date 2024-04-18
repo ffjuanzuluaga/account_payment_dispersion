@@ -22,6 +22,7 @@
         'views/res_partner_views.xml',
         'views/menus.xml'
     ],
+    'images': ['static/description/icon.png'],
     'license': 'OPL-1',
     'application': False,
     'installable': True,
