@@ -2,11 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Account Payment Dispersal',
-    'version': '0.1',
+    'version': '18.0.0.0',
     'category': 'Localization/Accounting & Finance',
     'description': 'This module allows to visualise the different dispersions that have been carried out over time..',
-    'author': 'Firefly-e',
-    'maintainer': 'Firefly-e',
+    'author': 'Firefly Sofware Consulting',
+    'maintainer': 'Firefly Sofware Consulting',
     'website': 'https://firefly-e.com/',
     'depends': [
         'account',
