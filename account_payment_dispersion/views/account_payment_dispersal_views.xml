@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <odoo>
     <record id="account_payment_dispersal_view_search" model="ir.ui.view">
         <field name="name">account.payment.dispersal.view.search</field>
@@ -27,18 +27,18 @@
             <form string="Banking Dispersion" create="0" delete="0" edit="0">
                 <sheet>
                     <div name="button_box" class="oe_button_box"/>
-                    <widget name="web_ribbon" title="Archived" bg_color="bg-danger" attrs="{'invisible': [('active', '=', True)]}"/>
+                    <widget name="web_ribbon" title="Archived" bg_color="bg-danger" invisible="active"/>
                     <div class="oe_title" name="account_payment_dispersal_title">
                         <label for="name" id="account_payment_dispersal_title"/>
                         <h1>
-                            <field name="name" class="d-block" required='1'/>
-                            <field name="active" invisible='1'/>
+                            <field name="name" class="d-block" required="1"/>
+                            <field name="active" invisible="1"/>
                         </h1>
                     </div>
                     <group>
                         <group name="info_left">
                             <field name="binary_file" widget="binary" filename="binary_file_name"/>
-                            <field name="binary_file_name" invisible='1'/>
+                            <field name="binary_file_name" invisible="1"/>
                         </group>
                         <group name="info_right">
                             <field name="journal_id"/>
@@ -46,7 +46,7 @@
                             <field name="create_date"/>
                         </group>
                     </group>
-                    <group string = 'Dispersed payments' name="dispersed_payments">
+                    <group string="Dispersed payments" name="dispersed_payments">
                         <field name="account_payment_ids" nolabel="1" readonly="1" colspan="2"/>
                     </group>
                 </sheet>
@@ -60,17 +60,17 @@
     </record>
 
     <record id="account_payment_dispersal_view_tree" model="ir.ui.view">
-        <field name="name">account.payment.dispersal.view.tree</field>
+        <field name="name">account.payment.dispersal.view.list</field>
         <field name="model">account.payment_dispersal</field>
         <field name="type">tree</field>
         <field name="arch" type="xml">
-            <tree string="Bank Dispersals" create="0" delete="0">
+            <list string="Bank Dispersals" create="0" delete="0">
                 <field name="name"/>
                 <field name="create_uid"/>
                 <field name="create_date"/>
                 <field name="company_id" groups="base.group_multi_company"/>
-                <field name="active" invisible='1'/>
-            </tree>
+                <field name="active" invisible="1"/>
+            </list>
         </field>
     </record>
 
@@ -78,7 +78,7 @@
         <field name="name">Bank Dispersals</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">account.payment_dispersal</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
         <field name="help" type="html">
             <p class="o_view_nocontent_smiling_face">
                 Check the different dispersals that have been made to banks for payment.
