@@ -15,8 +15,8 @@
     'data': [
         'security/ir.model.access.csv',
         'data/res_bank_data.xml',
-        'views/account_payment_views.xml',
         'views/res_bank_views.xml',
+        'views/account_payment_views.xml',
         'views/account_payment_dispersal_views.xml',
         'views/res_partner_bank_views.xml',
         'views/res_partner_views.xml',
