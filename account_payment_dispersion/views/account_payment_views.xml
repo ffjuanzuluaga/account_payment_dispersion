@@ -11,13 +11,13 @@
                     <field name="type_of_account" readonly="1" invisible="not show_partner_bank_account or partner_type != 'supplier' or is_internal_transfer or payment_type == 'inbound'"/>
                 </xpath>
 
-                <xpath expr="//sheet" position="inside">
+                <!--<xpath expr="//sheet" position="inside">
                     <notebook invisible="payment_type != 'outbound' and type != 'bank'" name="dispersion_banks">
                         <group>
                             <field name="type" invisible="1"/>
                         </group>
                     </notebook>
-                </xpath>
+                </xpath>-->
             </field>
         </record>
 	</data>
