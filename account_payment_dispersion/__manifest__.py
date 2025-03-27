@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Account Payment Dispersal',
-    'version': '18.0.0.0',
+    'version': '18.0.0.1',
     'category': 'Localization/Accounting & Finance',
     'description': 'This module allows to visualise the different dispersions that have been carried out over time..',
     'author': 'Firefly Sofware Consulting',
