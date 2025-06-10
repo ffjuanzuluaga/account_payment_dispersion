@@ -50,11 +50,7 @@
                         <field name="account_payment_ids" nolabel="1" readonly="1" colspan="2"/>
                     </group>
                 </sheet>
-                <div class="oe_chatter">
-                    <field name="message_follower_ids"/>
-                    <field name="activity_ids"/>
-                    <field name="message_ids"/>
-                </div>
+                <chatter/>
             </form>
         </field>
     </record>
